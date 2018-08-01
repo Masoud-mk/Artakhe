@@ -1,0 +1,57 @@
+body {
+  background-color: #000;
+}
+.homeSlider {
+  width: 100%;
+  height: 48em;
+  position: relative;
+  background-image: url('/img/reactjs-wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homeSlider .wrap {
+  width: 100%;
+  height: 5em;
+  position: absolute;
+  color: #fff;
+}
+.homeSlider .wrap.up {
+  top: 0;
+}
+.homeSlider .wrap.down {
+  bottom: 0;
+}
+.homeSlider .wrap2 {
+  width: 100%;
+  margin: 0 2em;
+}
+.homeSlider .wrap2 .navbar a {
+  font-size: 1em;
+  margin: 0 1em;
+  font-family: 'iransans-light';
+}
+.homeSlider .wrap2 .logo a {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.homeSlider .wrap2 .logo a span {
+  color: #93cb52;
+  font-size: 26px;
+}
+.homeSlider .wrap2 .navbar a.active {
+  color: #93cb52 !important;
+}
+.homeSlider .wrap2 .navbar a:hover,
+.homeSlider .wrap2 .navbar a:focus,
+.homeSlider .wrap2 .social a i:hover,
+.homeSlider .wrap2 .social a i:focus {
+  color: #93cb52;
+}
+.homeSlider .wrap2 .social a {
+  margin: 0 .8em;
+}
+.homeSlider .wrap2 .social a i {
+  font-size: 1em;
+}
+/* Responsive */

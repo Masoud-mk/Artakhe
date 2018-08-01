@@ -1,4 +1,45 @@
 <%- contentFor('title') %>
 Artakhe
+<%- contentFor('style')%>
+<link rel="stylesheet" href="/plugin/home/homeSlider/css/homeSlider.css">
+<link rel="stylesheet" href="/plugin/home/particleEffectButton/particleEffectButton.css">
+<%- contentFor('script')%>
+
 <%- contentFor('body') %>
-<h4>Welcome To Artakhe Website !</h4>
+<section class="homeSlider grid align-center">
+
+  <div class="container">
+    <div class="wrap up grid align-middle">
+    <div class="wrap2 grid-x-no-re align-justify align-middle">
+      <div class="grid__item theme-1">
+					<button class="action"></button>
+					<button class="particles-button grid align-center-middle">
+            <span>ورود</span>
+          </button>
+      </div>
+      <div class="logo">
+        <a href="/"><span>A</span>rtakhe</a>
+      </div>
+    </div>
+    </div>
+  
+    <div class="wrap down grid align-middle">
+    <div class="wrap2 grid-x-no-re align-justify align-middle">
+      <div class="navbar grid-x-no-re align-middle">
+        <a href="/" class="active">خانه</a>
+        <a href="#">درباره ما</a>
+        <a href="#">تماس با ما</a>
+      </div>
+
+      <div class="social grid-x-no-re align-middle">
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    </div>
+  </div>
+
+</section>

@@ -549,16 +549,10 @@ figure {
   display: flex;
   flex-flow: column nowrap;
 }
-.grid-container {
-  max-width: 95%;
-  margin: 0 auto;
-  padding: 0;
-}
-@media screen and (min-width: 85.375em) {
-	/* 1366px */
-	.grid-container {
-	  width: 90%;
-	}
+.container {
+  width: 95%;
+  overflow: hidden;
+  position: relative;
 }
 /*=====================================================*/
 /*Align*/
